@@ -9,7 +9,7 @@ public class Dice {
 	
 	// roll the die n times and print the values
 	public void rollMultiple(int n) {
-		for (int i=0; i<n; i++) // i has to be zero in order to also all the dice roll
+		for (int i=0; i<n; i++) // "i" has to be zero in order to roll all rounds with the rollMultiple metode
 		{
 			System.out.print(roll() + " ");
 		}		
